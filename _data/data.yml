@@ -40,7 +40,7 @@ career-profile:
       Em 2012 integrei o Exército Português como Sargento de Administração Militar, 
       desempenhando funções de **Técnico de Contabilidade e Finanças**, no Departamento de Finanças do Exército, onde adquiri fortes conhecimentos em SAP, na ótica de utilizador.<br>
       Paralelamente às minhas atribuições, contribuí ativamente para a modernização dos processos administrativos, aplicando técnicas de **automação**, (RPA, SAP GUI Scripting, Powershell), bem como na conceção e implementação de sistemas de gestão de **bases de dados**.<br>
-      Em 2023, concluí uma licenciatura em **Engenharia Informática**, consolidando assim sólidos conhecimentos, aliados a minha experiência prática.<br>
+      Em 2023, concluí uma licenciatura em **Engenharia Informática**, aliando assim a sólida formação à minha experiência prática.<br>
       A par da minha carreira militar, mantenho alguns projetos pessoais e uma atividade como <em>**Fullstack Web Developer** (Freelancer), que me permitem aprofundar conhecimentos técnicos.</em>
 
 
@@ -89,13 +89,25 @@ projects:
     assignments:
       - title: APAC - Associação de Pais Agrupamento de Escolas Augusto Cabrita
         link: https://apac-barreiro.pt/
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        tagline: |
+          Desenvolvimento do website da associação e sistema de gestão dos serviços prestados.
+          Desenvolvimento Fullstack: 
+          - PHP (Laravel) • JavaScript (Vue.js) 
+          - Gestão de Bases de Dados (MySQL) 
+          - Gestão de serviços, infraestrutura e automação (Linux, Docker, CI/CD, GitHub Actions) 
+          - Web Design
 
       - title: HIM DUB Festival
         link: https://2023.himdubfestival.com/
-        tagline: 
+        tagline: |
           Website de promoção ao festival de música. 
           Sistema de gestão da venda de bilhetes on-line.
+          Desenvolvimento Fullstack: 
+          - PHP (Laravel, Inertia.js) • JavaScript (Vue.js)
+          - CSS (Tailwind CSS)
+          - Gestão de Bases de Dados (MySQL);
+          - Gestão de serviços, infraestrutura e automação (Linux, Docker, CI/CD, GitHub Actions) 
+
 
 skills:
     title: <em>Skills</em>
