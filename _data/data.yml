@@ -61,13 +61,8 @@ experiences:
         company: RW Interactive
         details: |
           Envolvimento em vários projetos fullstack, maioriatiamente em Laravel/Vue.js.<br>
-          Ferramentas utilizadas:
-            • NPM
-            • Webpack
-            • Vite
-            • Redis
-            • Sass
-            • Docker
+          Ferramentas utilizadas:<br>
+          - NPM, Webpack, Vite, Redis, Sass, Docker, Git
             
 # certifications:
 #       title: Certifications
@@ -109,24 +104,24 @@ projects:
           - Gestão de serviços, infraestrutura e automação (Linux, Docker, CI/CD, GitHub Actions) 
 
 
-skills:
-    title: <em>Skills</em>
+# skills:
+#     title: <em>Skills</em>
 
-    toolset:
-      - name: PHP & Laravel
-        level: 80%
+#     toolset:
+#       - name: PHP & Laravel
+#         level: 80%
 
-      - name: Javascript & Vue.js
-        level: 80%
+#       - name: Javascript & Vue.js
+#         level: 80%
 
-      - name: Git
-        level: 70%
+#       - name: Git
+#         level: 70%
 
-      - name: Docker
-        level: 70%
+#       - name: Docker
+#         level: 70%
 
-      - name: HTML5 & CSS
-        level: 100%
+#       - name: HTML5 & CSS
+#         level: 100%
 
 footer: >
-    Forked from <a href="https://jekyllthemes.io/theme/online-cv" target="_blank" rel="nofollow">sharu725/online-cv</a>
+    <a href="https://jekyllthemes.io/theme/online-cv" target="_blank" rel="nofollow">sharu725/online-cv</a>
