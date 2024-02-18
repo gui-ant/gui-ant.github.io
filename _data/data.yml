@@ -1,6 +1,6 @@
 sidebar:
     position: left 
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -17,7 +17,7 @@ sidebar:
     pdf: 
 
     languages:
-      title: Languages
+      title: Línguas
       info:
         - idiom: Português
           level: Nativo
@@ -36,13 +36,10 @@ sidebar:
 career-profile:
     title: Carreira Profissional
     summary: |
-      Desde pequeno que sou um amante do desporto, no entanto
-      foi a informática que me despertou o interesse pelo estudo.
-      Inicei a minha carreira após a conclusão de um curso profissional de **Informática de Gestão**.<br>
-      Após 2 anos de experiência como *<em>**Web Designer**</em>*, em 2012 alistei-me para o Exército Português.<br>
+      Após a conclusão de um curso profissional de **Informática de Gestão**, inicei a minha carreira como *<em>**Web Designer**</em>*. Decorridos dois anos, as oportunidades escassearam em 2012 alistei-me para o Exército Português.<br>
       Como Sargento de Administração Militar, tenho vindo a trabalhar como **Técnico de Contabilidade e Finanças**, no Departamento de Finanças do Exército, onde desenvolvi  SAP na ótica de utilizador 
       e onde tenho vindo a conceber as mais diversas soluções de modernização dos processos administrativos, atráves de processos de **automação** (RPA/SAP GUI Scripting), e pela implementação de sistemas de gestão de **bases de dados**.<br>
-      Em 2023, concluí a um licenciatura em **Engenharia Informática**. <br>
+      Em 2023, concluí uma licenciatura em **Engenharia Informática**. <br>
       A par da minha carreira militar, mantenho alguns projetos pessoais e trabalho como <em>**Fullstack Web Developer** (Freelancer)</em>.
 
 
@@ -60,7 +57,7 @@ experiences:
     info:
       - role: Fullstack Web Developer
         time: 2023 - Agora
-        company: RW Interactive, Lisboa
+        company: RW Interactive
         details: |
           Envolvimento em vários projetos fullstack, maioriatiamente em Laravel/Vue.js.<br>
           Ferramentas utilizadas:
@@ -86,7 +83,7 @@ experiences:
 projects:
     title: Projetos
     intro: >
-      A par do constante interesse pelas diversas áreas do desenvolvimento, 
+      A par do constante interesse pelas diversas áreas de desenvolvimento, 
       tenho vindo a colaborar com equipas brilhantes, que ambicionaram ver crescer os seus projetos.
     assignments:
       - title: APAC - Associação de Pais Agrupamento de Escolas Augusto Cabrita
@@ -100,7 +97,7 @@ projects:
           Sistema de gestão da venda de bilhetes on-line.
 
 skills:
-    title: <em>Skills</em> &amp; Proeficiência
+    title: <em>Skills</em>
 
     toolset:
       - name: PHP & Laravel
