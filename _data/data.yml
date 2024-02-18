@@ -1,12 +1,12 @@
 sidebar:
-    position: left # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    position: left 
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Guilherme Antunes
     tagline: Licenciado em <br> Engenharia Informática
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.png 
 
     # Sidebar links
     email: antunes.gfa@gmail.com
@@ -14,168 +14,93 @@ sidebar:
     linkedin: gui-antunes
     github: gui-ant
     stack-overflow: 12004427/gui
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: 
 
     languages:
       title: Languages
       info:
-        - idiom: English
-          level: Native
+        - idiom: Português
+          level: Nativo
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
+        - idiom: Inglês
+          level: Básico
 
     interests:
-      title: Interests
+      title: Interesses
       info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
+        - item:
+            "IT: DevOps, Web Design, UX/UI"
+        - item: 
+            "Desporto: Corrida, Bicicleta, Xadrez"
 
 career-profile:
-    title: Career Profile
+    title: Carreira Profissional
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Desde pequeno que sou um amante do desporto, no entanto
+      foi a informática que me despertou o interesse pelo estudo.
+      Inicei a minha carreira após a conclusão de um curso profissional de **Informática de Gestão**.<br>
+      Após 2 anos de experiência como *<em>**Web Designer**</em>*, em 2012 alistei-me para o Exército Português.<br>
+      Como Sargento de Administração Militar, tenho vindo a trabalhar como **Técnico de Contabilidade e Finanças**, no Departamento de Finanças do Exército, onde desenvolvi  SAP na ótica de utilizador 
+      e onde tenho vindo a conceber as mais diversas soluções de modernização dos processos administrativos, atráves de processos de **automação** (RPA/SAP GUI Scripting), e pela implementação de sistemas de gestão de **bases de dados**.<br>
+      Em 2023, concluí a um licenciatura em **Engenharia Informática**. <br>
+      A par da minha carreira militar, mantenho alguns projetos pessoais e trabalho como <em>**Fullstack Web Developer** (Freelancer)</em>.
+
+
 education:
-    title: Education
+    title: Habilitações
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Licenciatura em Engenharia Informática
+        university: ISCTE - Instituto Universitário de Lisboa
+        time: 2018 - 2023
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Um curso 
 
 experiences:
-    title: Experiences
+    title: Experiênca
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Fullstack Web Developer
+        time: 2023 - Agora
+        company: RW Interactive, Lisboa
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+          Envolvimento em vários projetos fullstack, maioriatiamente em Laravel/Vue.js.<br>
+          Ferramentas utilizadas:
+            • NPM
+            • Webpack
+            • Vite
+            • Redis
+            • Sass
+            • Docker
+            
+# certifications:
+#       title: Certifications
+#       list:
+#         - name: 
+#           start: 
+#           end: 
+#           organization: 
+#           credentialid: 
+#           credentialurl: 
+#           credentialname: 
+#           details:
 
 projects:
-    title: Projects
+    title: Projetos
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      A par do constante interesse pelas diversas áreas do desenvolvimento, 
+      tenho vindo a colaborar com equipas brilhantes, que ambicionaram ver crescer os seus projetos.
     assignments:
       - title: APAC - Associação de Pais Agrupamento de Escolas Augusto Cabrita
         link: https://apac-barreiro.pt/
         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
+      - title: HIM DUB Festival
         link: https://2023.himdubfestival.com/
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: 
+          Website de promoção ao festival de música. 
+          Sistema de gestão da venda de bilhetes on-line.
 
 skills:
-    title: Skills &amp; Proficiency
+    title: <em>Skills</em> &amp; Proeficiência
 
     toolset:
       - name: PHP & Laravel
@@ -191,7 +116,7 @@ skills:
         level: 70%
 
       - name: HTML5 & CSS
-        level: 90%
+        level: 100%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Forked from <a href="https://jekyllthemes.io/theme/online-cv" target="_blank" rel="nofollow">sharu725/online-cv</a>

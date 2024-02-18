@@ -8,8 +8,8 @@
     }
 
     img.avatar {
-        filter: grayscale(1);
-        -webkit-filter: greyscale(1);
+      //   filter: grayscale(1);
+      //   -webkit-filter: greyscale(1);
     }
    .main-wrapper .time {
        float: right;
@@ -18,8 +18,9 @@
    }
     .sidebar-wrapper {
         position: static;
-        float: right;
-        width: 40%;
+        float: left;
+        text-wrap: stable;
+        width: 33.3%;
         -webkit-print-color-adjust: exact; 
     }
 
