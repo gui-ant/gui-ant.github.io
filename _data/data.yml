@@ -25,7 +25,7 @@ sidebar:
           level: Intermediate
 
     interests:
-      title: Super Powers
+      title: Superpowers
       info:
         - item: |
             <b>Languages</b>: PHP, JavaScript, Java
@@ -40,7 +40,7 @@ sidebar:
         - item: |
             <b>Scripting</b>: Python, Powershell
         - item: |
-            <b>Image</b>: Photoshop, Illustrator
+            <b>Image</b>: Photoshop, Illustrator, Figma
         - item: |
             <b>Other Tools</b>: Postman, Power Automate
 
@@ -51,7 +51,6 @@ career-profile:
       <p><b>2012</b>: Decided to change my carreer path, so I enlisted in the Portuguese Army;</p>
       <p><b>2015</b>: I finished the Military Staff Sergeant's course, and started to work in «Departamento de Finanças do Exército», as <b>Accounting Technician</b>;</p>
       <p><b>2023</b>: Got my BSc in <b>Computer Science</b> and, alongside my military carrer, I've been working as a freelance <b>Fullstack Web Developer</b>, as well on some personal projects.</p>
-
 
 education:
     title: Qualifications
