@@ -28,11 +28,11 @@ sidebar:
       title: Super Powers
       info:
         - item: |
-            <b>Languages</b>: PHP, JavaScript, Java, Python
+            <b>Languages</b>: PHP, JavaScript, Java
         - item: |
             <b>Frameworks</b>: Laravel, Vue.js, Bootstrap, Tailwind CSS
         - item: |
-            <b>Data</b>; SQL, MySQL, MongoDB, JSON, XML
+            <b>Data</b>: MySQL, MongoDB, JSON, XML, Excel, Power BI
         - item: |
             <b>DevOps</b>: Linux, Docker, Git, Nginx
         - item: |
@@ -42,15 +42,15 @@ sidebar:
         - item: |
             <b>Image</b>: Photoshop, Illustrator
         - item: |
-            <b>Tools</b>: Postman, Excel, Power BI, Power Automate
+            <b>Other Tools</b>: Postman, Power Automate
 
 career-profile:
     title: Professional Carrer
     summary: |
-      <p><b>2009</b>: After concluding my <b>ICT Technician</b> course, I started a <b>Web Designer</b> career;</p>
-      <p><b>2012</b>: Decided to change my carreer path, and I joined the Portuguese Army;</p>
+      <p><b>2009</b>: After completing my <b>ICT Technician</b> course, I began a career as a <b>Web Designer</b>;</p>
+      <p><b>2012</b>: Decided to change my carreer path, so I enlisted in the Portuguese Army;</p>
       <p><b>2015</b>: I finished the Military Staff Sergeant's course, and started to work in «Departamento de Finanças do Exército», as <b>Accounting Technician</b>;</p>
-      <p><b>2023</b>: Got my BSc in <b>Computer Engeneering</b> and, besides of my military carrer, I've been working as a <em><b>Fullstack Web Developer</b> (Freelancer)</em>, along with some personal projects</p>
+      <p><b>2023</b>: Got my BSc in <b>Computer Science</b> and, alongside my military carrer, I've been working as a freelance <b>Fullstack Web Developer</b>, as well on some personal projects.</p>
 
 
 education:
@@ -91,27 +91,27 @@ experiences:
 
 soft-skills:
       title: Soft Skills
-      list:
-        - name: 
+      list: |
+        Emotional intellect \| Creative thinking \| Conflict resolution \| Resilience \| Openmindedness<br>
+        Self-motivation \| Problem-solving \| Critical observation \| Artistic ability \| Systematic thinking<br>
+        Willingness to try new things \| Growth mindset \| Patient \| Works well under pressure
 
 projects:
     title: Projects
     intro: >
-      Collaborated with brilliant individuals who acknowledge my superpowers.
+      Proudly collaborated with brilliant organizations who acknowledge my superpowers.
     assignments:
       - title: APAC - Associação de Pais Agrupamento de Escolas Augusto Cabrita
         link: https://apac-barreiro.pt/
         tagline: |
-          Association website fullstack development:
-          Responsible for the server management and infrastructure (VPS, Ubuntu, NGINX, Docker);
-          Databases management (MySQL);
+          Association website developed with Laravel.
+          - Responsible for the server management and infrastructure (VPS, Ubuntu, NGINX, Docker);
+          - Databases management (MySQL);
 
       - title: Uprising Forward
         link: https://2023.himdubfestival.com/
         tagline: |
-          Summer festival promoting website development (HIM DUB FESTIVAL);
-          Ticketing system implementation and administration dashboard;
-          Fullstack Development: 
+          Summer festival promoting website development (HIM DUB FESTIVAL). Ticketing system implementation and administration dashboard.
           - PHP (Laravel), JavaScript (Vue.js), Inertia.js, Tailwind CSS, MySQL;
           - Infrastructure and deploy (Linux, Docker, CI/CD, GitHub Actions) 
 
