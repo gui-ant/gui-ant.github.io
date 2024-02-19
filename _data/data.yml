@@ -41,7 +41,7 @@ career-profile:
       desempenhando funções de **Técnico de Contabilidade e Finanças**, no Departamento de Finanças do Exército, onde adquiri fortes conhecimentos em SAP, na ótica de utilizador.<br>
       Paralelamente às minhas atribuições, contribuí ativamente para a modernização dos processos administrativos, aplicando técnicas de **automação** (RPA, SAP GUI Scripting, Powershell), bem como na conceção e implementação de sistemas de gestão de **bases de dados**.<br>
       Em 2023, concluí uma licenciatura em **Engenharia Informática**, aliando assim a sólida formação à minha experiência prática.<br>
-      A par da minha carreira militar, mantenho alguns projetos pessoais e uma atividade como <em>**Fullstack Web Developer** (Freelancer), que me prmitido aprofundar conhecimentos técnicos nas áreas do desenvolvimento.
+      A par da minha carreira militar, mantenho alguns projetos pessoais e uma atividade como <em>**Fullstack Web Developer** (Freelancer)</em>, que me prmitido aprofundar conhecimentos técnicos nas áreas do desenvolvimento.
 
 
 education:
@@ -61,8 +61,7 @@ experiences:
         company: RW Interactive
         details: |
           Envolvimento em vários projetos fullstack, maioriatiamente em Laravel/Vue.js.<br>
-          Ferramentas utilizadas:<br>
-          - NPM, Webpack, Vite, Redis, Sass, Docker, Git
+          Ferramentas utilizadas: NPM, Webpack, Vite, Redis, Sass, Docker, Git
             
 # certifications:
 #       title: Certifications
@@ -87,10 +86,8 @@ projects:
         tagline: |
           Desenvolvimento do website da associação e sistema de gestão dos serviços prestados.
           Desenvolvimento Fullstack: 
-          - PHP (Laravel) • JavaScript (Vue.js) 
-          - Gestão de Bases de Dados (MySQL) 
-          - Gestão de serviços, infraestrutura e automação (Linux, Docker, CI/CD, GitHub Actions) 
-          - Web Design
+          - PHP (Laravel), JavaScript (Vue.js), MySQL
+          - Gestão de serviços, infraestrutura e automação (Linux, Docker, CI/CD, GitHub Actions)
 
       - title: HIM DUB Festival
         link: https://2023.himdubfestival.com/
@@ -98,9 +95,7 @@ projects:
           Website de promoção ao festival de música. 
           Sistema de gestão da venda de bilhetes on-line.
           Desenvolvimento Fullstack: 
-          - PHP (Laravel, Inertia.js) • JavaScript (Vue.js)
-          - CSS (Tailwind CSS)
-          - Gestão de Bases de Dados (MySQL);
+          - PHP (Laravel) • JavaScript (Vue.js), Inertia.js, Tailwind CSS, MySQL;
           - Gestão de serviços, infraestrutura e automação (Linux, Docker, CI/CD, GitHub Actions) 
 
 
