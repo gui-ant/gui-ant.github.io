@@ -29,6 +29,12 @@
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  body{
+    padding: 0;
+  }
+  footer {
+    display: none;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
