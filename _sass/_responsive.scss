@@ -14,7 +14,6 @@
   }
 
   .main-wrapper {
-    padding: 30px;
   }
 
   .main-wrapper .time {
@@ -27,14 +26,29 @@
     margin-bottom: 0;
   }
 }
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  body{
+@media (max-width: 991px) {
+  h1.name { 
+    font-size: 26px !important;
+  }
+  .container-block {
+    padding: 20px !important;
+  }
+  .main-wrapper {
+    padding: 30px !important;
+    .section {
+      margin-bottom: 30px !important;
+    }
+  }
+  body {
     padding: 0;
   }
   footer {
     display: none;
   }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
 }
 
 /* Medium devices (desktops, 992px and up) */
