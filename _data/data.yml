@@ -111,7 +111,7 @@ projects:
       - title: Uprising Forward
         link: https://2023.himdubfestival.com/
         tagline: |
-          Summer festival promoting website development (HIM DUB FESTIVAL). Ticketing system implementation and administration dashboard.
+          Music festival promoting website development (HIM DUB FESTIVAL). Ticketing system implementation and administration dashboard.
           - PHP (Laravel), JavaScript (Vue.js), Inertia.js, Tailwind CSS, MySQL;
           - Infrastructure and deploy (Linux, Docker, CI/CD, GitHub Actions) 
 
