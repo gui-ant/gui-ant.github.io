@@ -12,8 +12,9 @@
   .wrapper {
     display: block;
   }
-
+  
   .main-wrapper {
+    
   }
 
   .main-wrapper .time {
@@ -38,6 +39,10 @@
     .section {
       margin-bottom: 40px !important;
     }
+  }
+  .wrapper {
+    box-shadow: none !important;
+    border: none !important;
   }
   body {
     padding: 0;
