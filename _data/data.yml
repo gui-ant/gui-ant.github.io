@@ -5,7 +5,7 @@ sidebar:
 
     # Profile information
     name: Guilherme Antunes
-    tagline: Licenciado em <br> Engenharia Informática
+    tagline: BSc in Computer Science
     avatar: profile.png 
 
     # Sidebar links
@@ -13,55 +13,68 @@ sidebar:
     website: gui-ant.github.io
     linkedin: gui-antunes
     github: gui-ant
-    stack-overflow: 12004427/gui
     pdf: 
 
     languages:
-      title: Línguas
+      title: Languages
       info:
-        - idiom: Português
-          level: Nativo
+        - idiom: Portuguese
+          level: Native
 
-        - idiom: Inglês
-          level: Básico
+        - idiom: English
+          level: Intermediate
 
     interests:
-      title: Interesses
+      title: Super Powers
       info:
-        - item:
-            "IT: DevOps, Web Design, UX/UI"
-        - item: 
-            "Desporto: Corrida, Bicicleta, Xadrez"
+        - item: |
+            <b>Languages</b>: PHP, JavaScript, Java, Python
+        - item: |
+            <b>Frameworks</b>: Laravel, Vue.js, Bootstrap, Tailwind CSS
+        - item: |
+            <b>Data</b>; SQL, MySQL, MongoDB, JSON, XML
+        - item: |
+            <b>DevOps</b>: Linux, Docker, Git, Nginx
+        - item: |
+            <b>Architecture</b>: MVC, REST, API
+        - item: |
+            <b>Scripting</b>: Python, Powershell
+        - item: |
+            <b>Image</b>: Photoshop, Illustrator
+        - item: |
+            <b>Tools</b>: Postman, Excel, Power BI, Power Automate
 
 career-profile:
-    title: Carreira Profissional
+    title: Professional Carrer
     summary: |
-      Após a conclusão de um curso profissional de **Informática de Gestão**, inicei a minha carreira como *<em>**Web Designer**</em>*.<br>
-      Em 2012 integrei o Exército Português como Sargento de Administração Militar, 
-      desempenhando funções de **Técnico de Contabilidade e Finanças**, no Departamento de Finanças do Exército, onde adquiri fortes conhecimentos em SAP, na ótica de utilizador.<br>
-      Paralelamente às minhas atribuições, contribuí ativamente para a modernização dos processos administrativos, aplicando técnicas de **automação** (RPA, SAP GUI Scripting, Powershell), bem como na conceção e implementação de sistemas de gestão de **bases de dados**.<br>
-      Em 2023, concluí uma licenciatura em **Engenharia Informática**, aliando assim a sólida formação à minha experiência prática.<br>
-      A par da minha carreira militar, mantenho alguns projetos pessoais e uma atividade como <em>**Fullstack Web Developer** (Freelancer)</em>, que me prmitido aprofundar conhecimentos técnicos nas áreas do desenvolvimento.
+      <p><b>2009</b>: After concluding my <b>ICT Technician</b> course, I started a <b>Web Designer</b> career;</p>
+      <p><b>2012</b>: Decided to change my carreer path, and I joined the Portuguese Army;</p>
+      <p><b>2015</b>: I finished the Military Staff Sergeant's course, and started to work in «Departamento de Finanças do Exército», as <b>Accounting Technician</b>;</p>
+      <p><b>2023</b>: Got my BSc in <b>Computer Engeneering</b> and, besides of my military carrer, I've been working as a <em><b>Fullstack Web Developer</b> (Freelancer)</em>, along with some personal projects</p>
 
 
 education:
-    title: Habilitações
+    title: Qualifications
     info:
-      - degree: Licenciatura em Engenharia Informática
+      - degree: BSc Degree in Computer Science
         university: ISCTE - Instituto Universitário de Lisboa
         time: 2018 - 2023
-        details: |
-          Um curso 
 
 experiences:
-    title: Experiênca
+    title: Experience
     info:
       - role: Fullstack Web Developer
-        time: 2023 - Agora
+        time: 2023 - Now
         company: RW Interactive
         details: |
-          Envolvimento em vários projetos fullstack, maioriatiamente em Laravel/Vue.js.<br>
-          Ferramentas utilizadas: NPM, Webpack, Vite, Redis, Sass, Docker, Git
+          - Working on multiple fullstack web projects;
+          - Laravel specialist;
+      - role: Military Staff Sergeant
+        time: 2015 - Now
+        company: Departamento de Finanças do Exército (Army's Financial Department)
+        details: |
+          - Accounting on salary's field; <br>
+          - Information systems developing and robotic proccesses implementation.
             
 # certifications:
 #       title: Certifications
@@ -75,28 +88,32 @@ experiences:
 #           credentialname: 
 #           details:
 
+
+soft-skills:
+      title: Soft Skills
+      list:
+        - name: 
+
 projects:
-    title: Projetos
+    title: Projects
     intro: >
-      A par do constante interesse pelas diversas áreas de desenvolvimento, 
-      tenho vindo a colaborar com equipas brilhantes, que ambicionaram ver crescer os seus projetos e negócios.
+      Collaborated with brilliant individuals who acknowledge my superpowers.
     assignments:
       - title: APAC - Associação de Pais Agrupamento de Escolas Augusto Cabrita
         link: https://apac-barreiro.pt/
         tagline: |
-          Desenvolvimento do website da associação e sistema de gestão dos serviços prestados.
-          Desenvolvimento Fullstack: 
-          - PHP (Laravel), JavaScript (Vue.js), MySQL
-          - Gestão de serviços, infraestrutura e automação (Linux, Docker, CI/CD, GitHub Actions)
+          Association website fullstack development:
+          Responsible for the server management and infrastructure (VPS, Ubuntu, NGINX, Docker);
+          Databases management (MySQL);
 
-      - title: HIM DUB Festival
+      - title: Uprising Forward
         link: https://2023.himdubfestival.com/
         tagline: |
-          Website de promoção ao festival de música. 
-          Sistema de gestão da venda de bilhetes on-line.
-          Desenvolvimento Fullstack: 
-          - PHP (Laravel) • JavaScript (Vue.js), Inertia.js, Tailwind CSS, MySQL;
-          - Gestão de serviços, infraestrutura e automação (Linux, Docker, CI/CD, GitHub Actions) 
+          Summer festival promoting website development (HIM DUB FESTIVAL);
+          Ticketing system implementation and administration dashboard;
+          Fullstack Development: 
+          - PHP (Laravel), JavaScript (Vue.js), Inertia.js, Tailwind CSS, MySQL;
+          - Infrastructure and deploy (Linux, Docker, CI/CD, GitHub Actions) 
 
 
 # skills:
