@@ -5,6 +5,24 @@
 <!-- custom js -->
 <script type="text/javascript" src="{{site.baseurl}}/assets/js/main.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.2/jspdf.umd.min.js"></script>
+<script>
+  var doc = new jsPDF();          
+  var elementHandler = {
+    '#ignorePDF': function (element, renderer) {
+      return true;
+    }
+  };
+  var source = window.document.getElementsByTagName("body")[0];
+  doc.fromHTML(
+    source,
+    15,
+    15,
+    {
+      'width': 180,'elementHandlers': elementHandler
+    });
+
+  doc.output("dataurlnewwindow");
+</script>
 {% if site.analytics %}
   {% include analytics.html %}
 {% endif %}
