@@ -39,7 +39,7 @@ sidebar:
         - item: |
             <b>Architecture</b>: MVC, REST, API
         - item: |
-            <b>Scripting</b>: Python, Powershell
+            <b>Scripting</b>: Python, PowerShell
         - item: |
             <b>Image</b>: Photoshop, Illustrator, Figma
         - item: |
@@ -51,7 +51,8 @@ career-profile:
       <p><b>2009</b>: After completing my <b>ICT Technician</b> course, I began a career as a <b>Web Designer</b>;</p>
       <p><b>2012</b>: Decided to change my career path, so I enlisted in the Portuguese Army;</p>
       <p><b>2015</b>: I finished the Military Staff Sergeant's course, and started to work in «Departamento de Finanças do Exército», as <b>Accounting Technician</b>;</p>
-      <p><b>2023</b>: Got my BSc in <b>Computer Science</b> and, alongside my military career, I've been working as a freelance <b>Fullstack Web Developer</b>, as well on some personal projects.</p>
+      <p><b>2023</b>: Got my BSc in <b>Computer Science</b> and, alongside my military career, I've been working as a freelance <b>Fullstack Web Developer</b>, as well on some personal projects;</p>
+      <p><b>2024</b>: Started an <b>IT consultant</b> career, as <b>Fullstack Web Developer</b>.</p>
 
 education:
     title: Qualifications
@@ -75,6 +76,11 @@ experiences:
         details: |
           - Accounting on salary's field; <br>
           - Information systems developing and robotic proccesses implementation.
+      - role: IT Consultant
+        time: 2024 - Now
+        company: Axians Portugal (VINCI Energies)
+        details: |
+          - Web application development for «Recuperar Portugal» (Recovery and Resilience Plan).<br>
             
 # certifications:
 #       title: Certifications
