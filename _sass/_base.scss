@@ -100,6 +100,7 @@ p {
   }
   .container-block {
     padding: 30px;
+    padding-bottom: 0px;
   }
   .container-block-title {
     text-transform: uppercase;
@@ -163,7 +164,7 @@ p {
   grid-column: span 7;
   order: $resume-order;
   background: #fff;
-  padding: 60px;
+  padding: 30px;
   .section-title {
     text-transform: uppercase;
     font-size: 20px;
@@ -171,10 +172,10 @@ p {
     color: darken($theme-color, 15%);
     position: relative;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .section {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
   }
 
   .experiences-section,
