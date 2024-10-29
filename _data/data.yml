@@ -64,23 +64,23 @@ education:
 experiences:
     title: Experience
     info:
-      - role: Fullstack Web Developer
-        time: 2023 - Now
-        company: RW Interactive
-        details: |
-          - Working on multiple fullstack web projects;
-          - Laravel specialist;
-      - role: Military Staff Sergeant
-        time: 2015 - Now
-        company: Departamento de Finanças do Exército (Army's Financial Department)
-        details: |
-          - Accounting on salary's field; <br>
-          - Information systems developing and robotic proccesses implementation.
       - role: IT Consultant
         time: 2024 - Now
         company: Axians Portugal (VINCI Energies)
         details: |
           - Web application development for «Recuperar Portugal» (Recovery and Resilience Plan).<br>
+      - role: Fullstack Web Developer
+        time: 2023 - 2024
+        company: RW Interactive
+        details: |
+          - Working on multiple fullstack web projects;
+          - Laravel specialist;
+      - role: Military Staff Sergeant
+        time: 2015 - 2023
+        company: Departamento de Finanças do Exército (Army's Financial Department)
+        details: |
+          - Accounting on salary's field; <br>
+          - Information systems developing and robotic proccesses implementation.
             
 # certifications:
 #       title: Certifications
