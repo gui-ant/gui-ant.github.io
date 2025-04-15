@@ -26,16 +26,16 @@ sidebar:
           level: Intermediate
 
     interests:
-      title: Superpowers
+      title: Core Strengths
       info:
         - item: |
             <b>Languages</b>: PHP, JavaScript, Java
         - item: |
-            <b>Frameworks</b>: Laravel, Vue.js, Bootstrap, Tailwind CSS
+            <b>Frameworks</b>: Laravel, Vue.js, Alpine.js
         - item: |
             <b>Data</b>: MySQL, MongoDB, JSON, XML, Excel, Power BI
         - item: |
-            <b>DevOps</b>: Linux, Docker, Git, Nginx
+            <b>DevOps</b>: Linux, Docker, Git, NGINX
         - item: |
             <b>Architecture</b>: MVC, REST, API
         - item: |
