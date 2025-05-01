@@ -51,6 +51,23 @@
         size: A4;
         margin: 1cm;
       }
+
+     /* Override the default print styles that are causing problems */
+     *, :after, :before {
+       /* Restore your colors instead of forcing black */
+       color: inherit !important;
+       
+       /* Keep text shadow removal */
+       text-shadow: none !important;
+       
+       /* Restore backgrounds instead of removing them */
+       background: inherit !important;
+       background-color: inherit !important;
+       
+       /* Keep box-shadow removal if you want, or restore with: */
+       -webkit-box-shadow: inherit !important;
+       box-shadow: inherit !important;
+     }
       
       body {
         width: 100%;
