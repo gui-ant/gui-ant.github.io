@@ -65,6 +65,10 @@
       /* Keep box-shadow removal if you want, or restore with: */
       -webkit-box-shadow: inherit !important;
       box-shadow: inherit !important;
+
+      -webkit-print-color-adjust: exact !important;
+      color-adjust: exact !important;
+      print-color-adjust: exact !important;
    }
 
    body {
@@ -137,13 +141,6 @@
    .grid, .flex, .row, .col {
      display: block !important;
      width: 100% !important;
-   }
-   
-   /* Ensure background colors and images print */
-   * {
-     -webkit-print-color-adjust: exact !important;
-     color-adjust: exact !important;
-     print-color-adjust: exact !important;
    }
    
    /* Fix table formatting */
