@@ -123,13 +123,6 @@
      color: black !important;
    }
    
-   /* Optional: Add URLs after links */
-   a[href^="http"]:after {
-     content: " (" attr(href) ")";
-     font-size: 10pt;
-     font-style: italic;
-   }
-   
    /* Ensure images fit within page */
    img {
      max-width: 100% !important;
