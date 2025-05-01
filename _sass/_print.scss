@@ -1,156 +1,121 @@
-/*
-@media print
-   {
-    @page {
-        size: A4;
-    }
-    body {
-       font-size: 12pt;
-    }
-
-    img.avatar {
-      //   filter: grayscale(1);
-      //   -webkit-filter: greyscale(1);
-    }
-   .main-wrapper .time {
-       float: right;
-        color: black !important;
-        -webkit-print-color-adjust: exact; 
-   }
-    .sidebar-wrapper {
-        position: static;
-        float: left;
-        text-wrap: stable;
-        width: 33.3%;
-    }
-
-    .remove-container.container-block {
-       display: none;
-    }
-
-    footer {
-       display: none;
-    }
-
-    .skillset .level-bar-inner {
-       background-color: black !important;
-       -webkit-print-color-adjust: exact; 
-    }
-
-   .fa-inverse,
-   .fa-inverse:after,
-   .fa-inverse:before {
-     color: #ffffff !important;
-   }
-
-}
-*/
 @media print {
-   /* General page setup */
-   @page {
-     size: A4;
-   }
-   
-   *, :after, :before {
-      /* Restore your colors instead of forcing black */
-      color: inherit !important;
-      
-      /* Keep text shadow removal */
-      text-shadow: none !important;
-      
-      /* Restore backgrounds instead of removing them */
-      background: inherit !important;
-      background-color: inherit !important;
-      
-      /* Keep box-shadow removal if you want, or restore with: */
-      -webkit-box-shadow: inherit !important;
-      box-shadow: inherit !important;
-
-      -webkit-print-color-adjust: exact !important;
-      color-adjust: exact !important;
-      print-color-adjust: exact !important;
-   }
-
-   body {
-     width: 100%;
-     margin: 0;
-     padding: 0;
-     font-size: 12pt;
-     line-height: 1.3;
-   }
-   
-   /* Hide elements not needed for print */
-   nav, .no-print, button, .social-links a:not(.print-only) {
-     display: none !important;
-   }
-   
-   /* Make sure container fits on page */
-   .container, .content, main {
-     width: 100% !important;
-     max-width: 100% !important;
-     margin: 0 !important;
-     padding: 0 !important;
-     overflow: visible !important;
-   }
-
-   .sidebar-wrapper {
-      background-color: inherit !important;
-   }
-   
-   /* Adjust headers and text */
-   h1, h2, h3 {
-     page-break-after: avoid;
-     page-break-inside: avoid;
-   }
-   
-   h1 {
-     font-size: 18pt;
-   }
-   
-   h2 {
-     font-size: 16pt;
-   }
-   
-   h3 {
-     font-size: 14pt;
-   }
-   
-   p, li {
-     page-break-inside: avoid;
-   }
-   
-   /* Handle page breaks better */
-   section, article, .section {
-     page-break-inside: avoid;
-     margin-bottom: 1cm;
-   }
-   
-   /* Fix links and URLs */
-   a {
-     text-decoration: none;
-   }
-   
-   /* Ensure images fit within page */
-   img {
-     max-width: 100% !important;
-     max-height: 10cm !important;
-     page-break-inside: avoid;
-   }
-   
-   /* Adjust grid/flex layouts for print */
-   .grid, .flex, .row, .col {
-     display: block !important;
-     width: 100% !important;
-   }
-   
-   /* Fix table formatting */
-   table {
-     width: 100% !important;
-     border-collapse: collapse;
-   }
-   
-   /* Avoid breaking inside elements */
-   .skill, .experience-item, .education-item {
-     page-break-inside: avoid;
-   }
+  /* Reset the problematic Bootstrap print styles */
+  *, *:before, *:after {
+    color: initial !important;
+    text-shadow: initial !important;
+    background: initial !important;
+    background-color: initial !important;
+    -webkit-box-shadow: initial !important;
+    box-shadow: initial !important;
+  }
+  
+  /* Force printing of backgrounds and colors */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  
+  /* General print layout */
+  @page {
+    size: A4;
+    margin: 0.5cm;
+  }
+  
+  body {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 12pt !important;
+    line-height: 1.3 !important;
+    background: #f5f5f5 !important;
+    color: #545E6C !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+  }
+  
+  /* Specifically target the sidebar styles */
+  .sidebar-wrapper {
+    background: #42A8C0 !important;
+    color: #fff !important;
+  }
+  
+  .sidebar-wrapper .profile-container {
+    background: rgba(0, 0, 0, 0.2) !important;
+    color: #fff !important;
+    padding: 30px !important;
+    text-align: center !important;
+  }
+  
+  /* Fix other specific elements based on your template */
+  /* Main content area */
+  .main-wrapper {
+    background: #fff !important;
+    padding: 30px !important;
+  }
+  
+  /* Section styles */
+  .section {
+    margin-bottom: 20px !important;
+  }
+  
+  .section-title {
+    color: #2d7788 !important;
+    text-transform: uppercase !important;
+    font-size: 16pt !important;
+    font-weight: bold !important;
+  }
+  
+  /* Item styles in your CV */
+  .item {
+    margin-bottom: 15px !important;
+  }
+  
+  .item-title {
+    font-size: 14pt !important;
+    font-weight: 500 !important;
+    margin-bottom: 5px !important;
+  }
+  
+  .item-meta {
+    font-size: 12pt !important;
+    color: #777 !important;
+    margin-bottom: 10px !important;
+  }
+  
+  /* Handle layout for print */
+  .container {
+    width: 100% !important;
+    max-width: 100% !important;
+    display: grid !important;
+    grid-template-columns: 30% 70% !important; /* Adjust based on your actual sidebar/content ratio */
+    gap: 0 !important;
+  }
+  
+  /* Preserve your grid layout for print */
+  .sidebar-wrapper {
+    grid-column: 1 !important;
+    width: 100% !important;
+  }
+  
+  .main-wrapper {
+    grid-column: 2 !important;
+    width: 100% !important;
+  }
+  
+  /* Add page breaks where needed */
+  h1, h2, .section {
+    page-break-after: avoid !important;
+    page-break-inside: avoid !important;
+  }
+  
+  .item {
+    page-break-inside: avoid !important;
+  }
+  
+  /* Make links readable */
+  a, a:visited {
+    text-decoration: none !important;
+    color: inherit !important;
+  }
 }
