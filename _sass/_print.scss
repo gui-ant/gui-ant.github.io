@@ -87,7 +87,11 @@
   a, a:visited {
     color: inherit !important;
   }
-
+  
+  .fa-inverse {
+    color: #fff !important;
+  }
+  
   footer {
     display: none;
   }
