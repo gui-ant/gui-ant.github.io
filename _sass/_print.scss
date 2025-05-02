@@ -1,15 +1,9 @@
 @media print {
-  /* General print layout */
-  @page {
-    size: A4;
-  }
-  
-  /* Reset the problematic Bootstrap print styles */
+  /* First, explicitly override the Bootstrap print styles */
   *, *:before, *:after {
+    color: initial !important;
     text-shadow: initial !important;
-    background: initial !important;
     background-color: initial !important;
-    -webkit-box-shadow: initial !important;
     box-shadow: initial !important;
   }
   
@@ -20,99 +14,71 @@
     print-color-adjust: exact !important;
   }
 
+  /* Explicit color overrides for main elements */
   body {
-    width: 100% !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    font-size: 12pt !important;
-    line-height: 1.3 !important;
-    background: #f5f5f5 !important;
     color: #545E6C !important;
-    -webkit-font-smoothing: antialiased !important;
-    -moz-osx-font-smoothing: grayscale !important;
   }
   
-  /* Specifically target the sidebar styles */
+  /* Sidebar specific colors */
   .sidebar-wrapper {
-    background: #42A8C0 !important;
     color: #fff !important;
+    background: #42A8C0 !important; 
   }
   
+  /* Profile container specific styles */
   .sidebar-wrapper .profile-container {
-    background: rgba(0, 0, 0, 0.2) !important;
     color: #fff !important;
-    padding: 30px !important;
-    text-align: center !important;
+    background: rgba(0, 0, 0, 0.2) !important;
   }
   
-  /* Fix other specific elements based on your template */
-  /* Main content area */
+  /* Target all text elements in the sidebar to ensure white text */
+  .sidebar-wrapper p,
+  .sidebar-wrapper h1,
+  .sidebar-wrapper h2,
+  .sidebar-wrapper h3,
+  .sidebar-wrapper h4,
+  .sidebar-wrapper h5,
+  .sidebar-wrapper h6,
+  .sidebar-wrapper li,
+  .sidebar-wrapper a,
+  .sidebar-wrapper span,
+  .sidebar-wrapper div {
+    color: #fff !important;
+  }
+  
+  /* Target specific sidebar sections if needed */
+  .sidebar-wrapper .contact-container,
+  .sidebar-wrapper .education-container,
+  .sidebar-wrapper .languages-container,
+  .sidebar-wrapper .interests-container,
+  .sidebar-wrapper .skills-container {
+    color: #fff !important;
+  }
+  
+  /* Main content area text colors */
   .main-wrapper {
-    background: #fff !important;
-    padding: 30px !important;
+    color: #545E6C !important;
   }
   
-  /* Section styles */
-  .section {
-    margin-bottom: 20px !important;
-  }
-  
+  /* Section title colors */
   .section-title {
     color: #2d7788 !important;
-    text-transform: uppercase !important;
-    font-size: 16pt !important;
-    font-weight: bold !important;
   }
   
-  /* Item styles in your CV */
-  .item {
-    margin-bottom: 15px !important;
+  /* Explicit color for specific elements */
+  .main-wrapper h1, 
+  .main-wrapper h2,
+  .main-wrapper h3 {
+    color: #2d7788 !important;
   }
   
-  .item-title {
-    font-size: 14pt !important;
-    font-weight: 500 !important;
-    margin-bottom: 5px !important;
-  }
-  
+  /* Item meta colors */
   .item-meta {
-    font-size: 12pt !important;
-    color: #777 !important;
-    margin-bottom: 10px !important;
+    color: #777777 !important;
   }
   
-  /* Handle layout for print */
-  .container {
-    width: 100% !important;
-    max-width: 100% !important;
-    display: grid !important;
-    grid-template-columns: 30% 70% !important; /* Adjust based on your actual sidebar/content ratio */
-    gap: 0 !important;
-  }
-  
-  /* Add page breaks where needed */
-  h1, h2, .section {
-    page-break-after: avoid !important;
-    page-break-inside: avoid !important;
-  }
-  
-  .item {
-    page-break-inside: avoid !important;
-  }
-  
-  /* Make links readable */
+  /* Links */
   a, a:visited {
-    text-decoration: none !important;
     color: inherit !important;
-  }
-  
-  footer {
-    display: none;
-  }
-
-  .fa-inverse,
-  .fa-inverse:after,
-  .fa-inverse:before {
-    color: #ffffff !important;
   }
 }
