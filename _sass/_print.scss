@@ -1,6 +1,7 @@
 @media print {
   /* First, explicitly override the Bootstrap print styles */
   *, *:before, *:after {
+    color: inherit !important;
     text-shadow: initial !important;
     background-color: initial !important;
     box-shadow: initial !important;
