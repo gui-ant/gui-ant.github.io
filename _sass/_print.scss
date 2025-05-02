@@ -18,6 +18,10 @@
   body {
     color: #545E6C !important;
   }
+
+  a:after {
+    content: "" !important;
+  }
   
   /* Sidebar specific colors */
   .sidebar-wrapper {
