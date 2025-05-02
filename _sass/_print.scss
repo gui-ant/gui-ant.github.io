@@ -106,4 +106,14 @@
     text-decoration: none !important;
     color: inherit !important;
   }
+  
+  footer {
+    display: none;
+  }
+
+  .fa-inverse,
+  .fa-inverse:after,
+  .fa-inverse:before {
+    color: #ffffff !important;
+  }
 }
