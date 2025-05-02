@@ -1,7 +1,11 @@
 @media print {
+  /* General print layout */
+  @page {
+    size: A4;
+  }
+  
   /* Reset the problematic Bootstrap print styles */
   *, *:before, *:after {
-    color: initial !important;
     text-shadow: initial !important;
     background: initial !important;
     background-color: initial !important;
@@ -15,12 +19,7 @@
     color-adjust: exact !important;
     print-color-adjust: exact !important;
   }
-  
-  /* General print layout */
-  @page {
-    size: A4;
-  }
-  
+
   body {
     width: 100% !important;
     margin: 0 !important;
