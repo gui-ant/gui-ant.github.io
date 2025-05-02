@@ -19,7 +19,6 @@
   /* General print layout */
   @page {
     size: A4;
-    margin: 0.5cm;
   }
   
   body {
@@ -90,17 +89,6 @@
     display: grid !important;
     grid-template-columns: 30% 70% !important; /* Adjust based on your actual sidebar/content ratio */
     gap: 0 !important;
-  }
-  
-  /* Preserve your grid layout for print */
-  .sidebar-wrapper {
-    grid-column: 1 !important;
-    width: 100% !important;
-  }
-  
-  .main-wrapper {
-    grid-column: 2 !important;
-    width: 100% !important;
   }
   
   /* Add page breaks where needed */
