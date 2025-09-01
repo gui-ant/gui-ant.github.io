@@ -33,7 +33,7 @@ sidebar:
         - item: |
             <b>Frameworks</b>: Laravel, Vue.js, Alpine.js
         - item: |
-            <b>Data</b>: MySQL, MongoDB, JSON, XML, Excel, Power BI
+            <b>Data</b>: MySQL, JSON, XML, Excel, Power BI
         - item: |
             <b>DevOps</b>: Linux, Docker, Git, NGINX
         - item: |
@@ -48,11 +48,12 @@ sidebar:
 career-profile:
     title: Professional Career
     summary: |
-      <p><b>2009</b>: After completing my <b>ICT Technician</b> course, I began a career as a <b>Web Designer</b>;</p>
-      <p><b>2012</b>: Decided to change my career path, so I enlisted in the Portuguese Army;</p>
-      <p><b>2015</b>: I finished the Military Staff Sergeant's course, and started to work in «Departamento de Finanças do Exército», as <b>Accounting Technician</b>;</p>
-      <p><b>2023</b>: Got my BSc in <b>Computer Science</b> and, alongside my military career, I've been working as a freelance <b>Fullstack Web Developer</b>, as well on some personal projects;</p>
-      <p><b>2024</b>: Started an <b>IT consultant</b> career, as <b>Fullstack Web Developer</b>.</p>
+      <p><b>2009</b> After completing my <b>ICT Technician</b> course, I began a career as a <b>Web Designer</b>;</p>
+      <p><b>2012</b> Decided to change my career path, so I enlisted in the Portuguese Army;</p>
+      <p><b>2015</b> After finish Military Staff Sergeant's course, I started to work in «Departamento de Finanças do Exército», as <b>Accounting Technician</b>;</p>
+      <p><b>2023</b> Got my BSc in <b>Computer Science</b> and, alongside my military career, I've been working as a freelance <b>Fullstack Web Developer</b>, as well on some personal projects;</p>
+      <p><b>2024</b> Started an <b>IT consultant</b> career, as <b>Fullstack Web Developer</b>.</p>
+      <p><b>2025</b> Working on <b>Autoridade Tributária e Aduaneira</b> web applications as <b>Backend Developer (Java)</b>.</p>
 
 education:
     title: Qualifications
@@ -64,12 +65,30 @@ education:
 experiences:
     title: Experience
     info:
-      - role: IT Consultant
-        time: 2024 - Now
-        company: Axians Portugal (VINCI Energies)
+      - role: IT Consultant (Backend Developer - Java)
+        time: 2025 - Now
+        company: Axians Portugal
         details: |
-          - Web applications development for «Recuperar Portugal» (Recovery and Resilience Plan).<br>
-      - role: Fullstack Web Developer
+            - Embed web application development for "POSEI" (Portal das Finanças - Autoridade Tributária e Aduaneira);
+            - Technologies: Java, JavaServer Faces (JSF), JavaServer Pages (JSP), PrimeFaces, HTML5, CSS3, JavaScript (Vanilla);
+            - Agile methodologies (Scrum, Kanban)
+            - Unit testing (JUnit);
+            - Database management (Oracle);
+      - role: IT Consultant (Fullstack Web Developer - PHP/Laravel)
+        time: 2024 - 2025
+        company: Axians Portugal
+        details: |
+          - Web applications development for «Recuperar Portugal (PRR)» (Recovery and Resilience Plan)
+          - Technologies: PHP (Laravel), Alpine.js, Livewire
+          - Participation in the entire software development lifecycle
+          - Infrastructure management (Docker, deployment pipelines)
+          - Database management (MySQL)
+          - API integration (REST, SOAP)
+          - Team collaboration and code reviews (Git, BitBucket)
+          - Troubleshooting and debugging
+          - Performance optimization
+          - Writing technical documentation
+      - role: Fullstack Web Developer (Freelancer)
         time: 2023 - 2024
         company: RW Interactive
         details: |
