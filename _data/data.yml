@@ -46,14 +46,14 @@ sidebar:
             <b>Misc</b>: VS Code, IntelliJ IDEA, Postman, Power Automate 
 
 career-profile:
-    title: Professional Career
+    title: Career Resume
     summary: |
-      <p><b>2009</b> After completing my <b>ICT Technician</b> course, I began a career as a <b>Web Designer</b>;</p>
-      <p><b>2012</b> Decided to change my career path, so I enlisted in the Portuguese Army;</p>
-      <p><b>2015</b> After finish Military Staff Sergeant's course, I started to work in «Departamento de Finanças do Exército», as <b>Accounting Technician</b>;</p>
-      <p><b>2023</b> Got my BSc in <b>Computer Science</b> and, alongside my military career, I've been working as a freelance <b>Fullstack Web Developer</b>, as well on some personal projects;</p>
-      <p><b>2024</b> Started an <b>IT consultant</b> career, as <b>Fullstack Web Developer</b>.</p>
-      <p><b>2025</b> Working on <b>Autoridade Tributária e Aduaneira</b> web applications as <b>Backend Developer (Java)</b>.</p>
+      <b>2009</b> After completing my <b>ICT Technician</b> course, I began a career as a <b>Web Designer</b><br>
+      <b>2012</b> Decided to change my career path, so I enlisted in the Portuguese Army<br>
+      <b>2015</b> After finish Military Staff Sergeant's course, I started to work in «Departamento de Finanças do Exército», as <b>Accounting Technician</b><br>
+      <b>2023</b> Got my BSc in <b>Computer Science</b> and, alongside my military career, I've been working as a freelance <b>Fullstack Web Developer</b>, as well on some personal projects<br>
+      <b>2024</b> Started an <b>IT consultant</b> career, as <b>Fullstack Web Developer</b><br>
+      <b>2025</b> Currently working on <b>Autoridade Tributária e Aduaneira</b> embed web applications as <b>Java Backend Developer</b><br>
 
 education:
     title: Qualifications
@@ -69,11 +69,11 @@ experiences:
         time: 2025 - Now
         company: Axians Portugal
         details: |
-            - Embed web application development for "POSEI" (Portal das Finanças - Autoridade Tributária e Aduaneira);
-            - Technologies: Java, JavaServer Faces (JSF), JavaServer Pages (JSP), PrimeFaces, HTML5, CSS3, JavaScript (Vanilla);
+            - Embed web application development for "POSEI" (Portal das Finanças - Autoridade Tributária e Aduaneira)
+            - Technologies: Java, JavaServer Faces (JSF), JavaServer Pages (JSP), PrimeFaces, JavaScript (Vanilla)
             - Agile methodologies (Scrum, Kanban)
-            - Unit testing (JUnit);
-            - Database management (Oracle);
+            - Unit testing (JUnit)
+            - Database management (Oracle)
       - role: IT Consultant (Fullstack Web Developer - PHP/Laravel)
         time: 2024 - 2025
         company: Axians Portugal
@@ -87,8 +87,7 @@ experiences:
           - Team collaboration and code reviews (Git, BitBucket)
           - Troubleshooting and debugging
           - Performance optimization
-          - Writing technical documentation
-      - role: Fullstack Web Developer (Freelancer)
+      - role: Fullstack Web Developer (Freelancer - PHP/Laravel)
         time: 2023 - 2024
         company: RW Interactive
         details: |
@@ -117,9 +116,10 @@ experiences:
 soft-skills:
       title: Soft Skills
       list: |
-        Emotional intellect \| Creative thinking \| Conflict resolution \| Resilience \| Openmindedness<br>
-        Self-motivation \| Problem-solving \| Critical observation \| Artistic ability \| Systematic thinking<br>
-        Willingness to try new things \| Growth mindset \| Patient \| Works well under pressure
+        Emotional intellect \| Creative thinking \| Conflict resolution \| Resilience \|<br>
+        Openmindedness \| Self-motivation \| Problem-solving \| Critical observation \|<br>
+        Artistic ability \| Systematic thinking \| Willingness to try new things \|<br>
+        Growth mindset \| Patient \| Works well under pressure
 
 projects:
     title: Projects
@@ -128,7 +128,7 @@ projects:
         link: https://apac-barreiro.pt/
         tagline: |
           Association website developed with Laravel.
-          - Responsible for the server management and infrastructure (VPS, Ubuntu, NGINX, Docker);
+          - Server and infrastructure management (VPS, Ubuntu, NGINX, Docker);
           - Databases management (MySQL);
 
       - title: Uprising Forward
