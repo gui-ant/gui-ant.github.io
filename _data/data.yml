@@ -31,7 +31,7 @@ sidebar:
         - item: |
             <b>Programming Languages</b>: PHP, JavaScript, Java, Python
         - item: |
-            <b>Frameworks & Libs</b>: Laravel, Vue.js, Alpine.js, Bootstrap, webpack/Vite
+            <b>Frameworks & Libs</b>: Laravel, Vue.js, Alpine.js
         - item: |
             <b>Data</b>: MySQL, JSON, XML, Excel, Power BI
         - item: |
@@ -110,8 +110,8 @@ experiences:
 soft-skills:
       title: Soft Skills
       list: |
-        Self-direction \| Critical thinking \| Problem-solving \| Conflict resolution \| Resilience \| Creativity \|<br>
-        Growth mindset \| Works well under pressure
+        Self-direction \| Critical thinking \| Problem-solving \| Conflict resolution \| Resilience \| <br>
+        Creativity \| Growth mindset \| Works well under pressure
 
 projects:
     title: Projects
