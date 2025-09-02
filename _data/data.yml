@@ -29,31 +29,29 @@ sidebar:
       title: Core Strengths
       info:
         - item: |
-            <b>Languages</b>: PHP, JavaScript, Java
+            <b>Programming Languages</b>: PHP, JavaScript, Java
         - item: |
             <b>Frameworks</b>: Laravel, Vue.js, Alpine.js
         - item: |
             <b>Data</b>: MySQL, JSON, XML, Excel, Power BI
         - item: |
-            <b>DevOps</b>: Linux, Docker, Git, NGINX
+            <b>DevOps & Tools</b>: Linux, Docker, Git, NGINX
         - item: |
             <b>Architecture</b>: MVC, REST, API
         - item: |
             <b>Scripting</b>: Python, PowerShell
-        - item: |
-            <b>Image</b>: Photoshop, Illustrator, Figma
         - item: |
             <b>Misc</b>: VS Code, IntelliJ IDEA, Postman, Power Automate 
 
 career-profile:
     title: Career Resume
     summary: |
-      <b>2009</b> After completing my <b>ICT Technician</b> course, I began a career as a <b>Web Designer</b><br>
+      <b>2009</b> After completing my ICT Technician course, I began a career as a Web Designer<br>
       <b>2012</b> Decided to change my career path, so I enlisted in the Portuguese Army<br>
-      <b>2015</b> After finish Military Staff Sergeant's course, I started to work in «Departamento de Finanças do Exército», as <b>Accounting Technician</b><br>
-      <b>2023</b> Got my BSc in <b>Computer Science</b> and, alongside my military career, I've been working as a freelance <b>Fullstack Web Developer</b>, as well on some personal projects<br>
-      <b>2024</b> Started an <b>IT consultant</b> career, as <b>Fullstack Web Developer</b><br>
-      <b>2025</b> Currently working on <b>Autoridade Tributária e Aduaneira</b> embed web applications as <b>Java Backend Developer</b><br>
+      <b>2015</b> After finish Military Staff Sergeant's course, I started to work in «Departamento de Finanças do Exército», as Accounting Technician<br>
+      <b>2023</b> Got my BSc in Computer Science and, alongside my military career, I've been working as a freelance Fullstack Web Developer, as well on some personal projects<br>
+      <b>2024</b> Started an IT consultant career, as Fullstack Web Developer<br>
+      <b>2025</b> Currently working on Autoridade Tributária e Aduaneira embed web applications as Java Backend Developer<br>
 
 education:
     title: Qualifications
@@ -116,10 +114,8 @@ experiences:
 soft-skills:
       title: Soft Skills
       list: |
-        Emotional intellect \| Creative thinking \| Conflict resolution \| Resilience \|<br>
-        Openmindedness \| Self-motivation \| Problem-solving \| Critical observation \|<br>
-        Artistic ability \| Systematic thinking \| Willingness to try new things \|<br>
-        Growth mindset \| Patient \| Works well under pressure
+        Self-direction \| Critical thinking \| Problem-solving \| Conflict resolution \| Resilience \| Creativity \|<br>
+        Growth mindset \| Works well under pressure
 
 projects:
     title: Projects
