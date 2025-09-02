@@ -29,19 +29,15 @@ sidebar:
       title: Core Strengths
       info:
         - item: |
-            <b>Programming Languages</b>: PHP, JavaScript, Java
+            <b>Programming Languages</b>: PHP, JavaScript, Java, Python
         - item: |
-            <b>Frameworks</b>: Laravel, Vue.js, Alpine.js
+            <b>Frameworks & Libs</b>: Laravel, Vue.js, Alpine.js, Bootstrap, webpack/Vite
         - item: |
             <b>Data</b>: MySQL, JSON, XML, Excel, Power BI
         - item: |
-            <b>DevOps & Tools</b>: Linux, Docker, Git, NGINX
+            <b>DevOps & Tools</b>: Linux, Docker, Git, NGINX, Bash, PowerShell
         - item: |
-            <b>Architecture</b>: MVC, REST, API
-        - item: |
-            <b>Scripting</b>: Python, PowerShell
-        - item: |
-            <b>Misc</b>: VS Code, IntelliJ IDEA, Postman, Power Automate 
+            <b>Misc</b>: VS Code, IntelliJ IDEA, Postman, Power Automate
 
 career-profile:
     title: Career Resume
