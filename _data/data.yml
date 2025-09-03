@@ -59,7 +59,7 @@ education:
 experiences:
     title: Experience
     info:
-      - role: IT Consultant (Backend Developer - Java)
+      - role: Backend Developer (Java)
         time: 2025 - Now
         company: Axians Portugal
         details: |
@@ -68,31 +68,37 @@ experiences:
             - Agile methodologies (Scrum, Kanban)
             - Unit testing (JUnit)
             - Database management (Oracle)
-      - role: IT Consultant (Fullstack Web Developer - PHP/Laravel)
+      - role: Fullstack Web Developer (PHP/Laravel)
         time: 2024 - 2025
         company: Axians Portugal
         details: |
-          - Web applications development for «Recuperar Portugal (PRR)» (Recovery and Resilience Plan)
-          - Technologies: PHP (Laravel), Alpine.js, Livewire
-          - Participation in the entire software development lifecycle
-          - Infrastructure management (Docker, deployment pipelines)
-          - Database management (MySQL)
-          - API integration (REST, SOAP)
-          - Team collaboration and code reviews (Git, BitBucket)
-          - Troubleshooting and debugging
-          - Performance optimization
-      - role: Fullstack Web Developer (Freelancer - PHP/Laravel)
+          - Contributed to web platforms for “Recuperar Portugal (PRR)” – EU Recovery and Resilience Plan
+          - Built scalable solutions with Laravel, Alpine.js, Livewire
+          - Managed infrastructure with Docker and CI/CD pipelines.
+          - Integrated APIs (REST, SOAP)
+          - Collaborated on code reviews (Bitbucket)
+      - role: Fullstack Web Developer (Freelancer)
         time: 2023 - 2024
         company: RW Interactive
         details: |
-          - Working on multiple fullstack web projects;
-          - Laravel specialist;
+          - Delivered and maintained Laravel-based applications for international clients
+          - Resolved support tickets and documented solutions.
+          - Used Docker containers to set local development environments
+          - Built frontend components in Vue.js, always mindful of user experience
+          - Integrated and consumed external APIs
       - role: Military Staff Sergeant
         time: 2015 - 2023
         company: Departamento de Finanças do Exército (Army's Financial Department)
         details: |
-          - Accounting on salary's field; <br>
-          - Development of information systems and implementation of robotic processes.
+          - Managed payroll processes, handling a huge data volume (over 500,000 records per month)
+          - Monitored and controlled debts from undue payments, including registration, follow-up, and recovery through the "Portal das Finanças"
+          - Developed control systems and process automation for accounting records, improving accuracy and efficiency
+          - Redesigned the extra-budgetary undue payments accounting system, enabling timely traceability of processes
+          - Built data analysis and summary reports with Power Query to identify discrepancies and support accounting entries
+          - Automated bank statement extraction and reconciliation through scripting
+          - Created a system to calculate average balance values for mandatory external reporting
+          - Supported Treasury operations, streamlining routine tasks
+          - Collaborated with the Accounting team to implement automation for SAP entries
             
 # certifications:
 #       title: Certifications
