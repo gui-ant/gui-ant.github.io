@@ -96,4 +96,8 @@
   footer {
     display: none;
   }
+  
+  .page, .page-break { 
+    break-after: page;
+  }
 }
