@@ -26,14 +26,14 @@ sidebar:
           level: Intermediate
 
     interests:
-      title: Core Strengths
+      title: Tech Stack
       info:
         - item: |
             <b>Programming Languages</b>: PHP, JavaScript, Java, Python
         - item: |
             <b>Frameworks & Libs</b>: Laravel, Vue.js, Alpine.js
         - item: |
-            <b>Data</b>: MySQL, JSON, XML, Excel, Power BI
+            <b>Data</b>: MySQL, PL/SQL, JSON, XML, Excel, Power BI
         - item: |
             <b>DevOps & Tools</b>: Linux, Docker, Git, NGINX, Bash, PowerShell
         - item: |
@@ -63,17 +63,18 @@ experiences:
         time: 2025 - Now
         company: Axians Portugal
         details: |
-            - Embed web application development for "POSEI" (Portal das Finanças - Autoridade Tributária e Aduaneira)
-            - Technologies: Java, JavaServer Faces (JSF), JavaServer Pages (JSP), PrimeFaces, JavaScript (Vanilla)
+            - Embedded web application development for "POSEI" (Portal Aduaneiro / Autoridade Tributária e Aduaneira)
+            - Technologies: Java, JavaServer Faces (PrimeFaces), JavaServer Pages (JSP), JavaScript (Vanilla)
             - Agile methodologies (Scrum, Kanban)
             - Unit testing (JUnit)
-            - Database management (Oracle)
+            - Database management (Oracle PL/SQL)
+            - Code reviewing (Bitbucket)
       - role: Fullstack Web Developer (PHP/Laravel)
         time: 2024 - 2025
         company: Axians Portugal
         details: |
           - Contributed to web platforms for “Recuperar Portugal (PRR)” – EU Recovery and Resilience Plan
-          - Built scalable solutions with Laravel, Alpine.js, Livewire
+          - Built reusable components and scalable solutions with Laravel, Alpine.js, Livewire
           - Managed infrastructure with Docker and CI/CD pipelines.
           - Integrated APIs (REST, SOAP)
           - Collaborated on code reviews (Bitbucket)
@@ -126,8 +127,9 @@ projects:
         link: https://apac-barreiro.pt/
         tagline: |
           Association website developed with Laravel.
-          - Server and infrastructure management (VPS, Ubuntu, NGINX, Docker);
+          - Server and infrastructure management (VPS, Ubuntu, NGINX, Docker); 
           - Databases management (MySQL);
+          - CI/CD (GitHub Actions);
 
       - title: Uprising Forward
         link: https://2023.himdubfestival.com/
