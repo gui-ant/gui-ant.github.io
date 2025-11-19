@@ -42,12 +42,12 @@ sidebar:
 career-profile:
     title: Career Resume
     summary: |
-      <b>2009</b> After completing my ICT Technician course, I began a career as a Web Designer<br>
-      <b>2012</b> Decided to change my career path, so I enlisted in the Portuguese Army<br>
+      <b>2009</b> After completing my ICT Technician course, I briefly worked as a Web Designer<br>
+      <b>2012</b> I joined the Portuguese Army<br>
       <b>2015</b> After finish Military Staff Sergeant's course, I started to work in «Departamento de Finanças do Exército», as Accounting Technician<br>
       <b>2023</b> Got my BSc in Computer Science and, alongside my military career, I've been working as a freelance Fullstack Web Developer, as well on some personal projects<br>
       <b>2024</b> Started an IT consultant career, as Fullstack Web Developer<br>
-      <b>2025</b> Currently working on Autoridade Tributária e Aduaneira embed web applications as Java Backend Developer<br>
+      <b>2025</b> Currently working as Java Backend Developer on embedded web applications for "Autoridade Tributária e Aduaneira"<br>
 
 education:
     title: Qualifications
@@ -68,7 +68,7 @@ experiences:
             - Agile methodologies (Scrum, Kanban)
             - Unit testing (JUnit)
             - Database management (Oracle PL/SQL)
-            - Code reviewing (Bitbucket)
+            - Code reviews (Bitbucket)
       - role: Fullstack Web Developer (PHP/Laravel)
         time: 2024 - 2025
         company: Axians Portugal
