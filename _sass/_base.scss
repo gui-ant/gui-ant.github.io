@@ -77,7 +77,7 @@ p {
 
   .avatar {
     //used for profile image
-    max-width: 120px !important;
+    max-width: 100px !important;
     margin-bottom: 15px;
     border: 0px solid #fff;
     border-radius: 100%;
@@ -129,7 +129,6 @@ p {
     }
     .time {
       color: rgba(256, 256, 256, 0.6);
-      font-weight: 500;
       margin-bottom: 0px;
     }
   }
@@ -172,7 +171,7 @@ p {
     color: darken($theme-color, 15%);
     position: relative;
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .section {
     margin-bottom: 30px;
@@ -203,11 +202,7 @@ p {
   }
   .time,
   .cert-url {
-    position: absolute;
-    right: 0;
-    top: 0;
     color: $text-grey;
-    flex: 25%;
   }
   .company,
   .university,
@@ -224,6 +219,7 @@ p {
     color: darken($theme-color, 15%);
   }
   .projects-section {
+    padding-top: 30px;
     .intro {
       margin-bottom: 30px;
     }

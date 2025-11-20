@@ -14,12 +14,20 @@
 
     <div class="meta">
 
-      <div class="upper-row">
-        <h3 class="job-title">{{ experience.role }}</h3>
-        <div class="time">{{ experience.time }}</div>
-      </div><!--//upper-row-->
-
-      <div class="company">{{ experience.company }}</div>
+      <div style="display: flex; justify-content: flex-start">
+        <div style="margin-right: 10px; min-width: 30px;">
+          <img src="{{ experience.logo }}" alt="" width="30px">
+        </div>
+        <div style="width: 100%;">
+          <div class="upper-row">
+            <h3 class="job-title">{{ experience.role }}</h3>
+          </div><!--//upper-row-->
+          <div style="display: flex; justify-content: space-between;">
+            <div class="company">{{ experience.company }}</div>
+            <div class="time">{{ experience.time }}</div>
+          </div>
+        </div>
+      </div>
 
     </div><!--//meta-->
 
@@ -34,4 +42,3 @@
 
 </section><!--//section-->
 {% endif %}
-

@@ -59,26 +59,29 @@ education:
 experiences:
     title: Experience
     info:
-      - role: Backend Developer (Java)
+      - role: Autoridade Tributária e Aduaneira - Backend Developer
+        logo: ../assets/images/at.jpg
         time: 2025 - Now
         company: Axians Portugal
         details: |
-            - Embedded web application development for "POSEI" (Portal Aduaneiro / Autoridade Tributária e Aduaneira)
+            - Embedded Java web application development (POSEI)
             - Technologies: Java, JavaServer Faces (PrimeFaces), JavaServer Pages (JSP), JavaScript (Vanilla)
             - Agile methodologies (Scrum, Kanban)
             - Unit testing (JUnit)
             - Database management (Oracle PL/SQL)
             - Code reviews (Bitbucket)
-      - role: Fullstack Web Developer (PHP/Laravel)
+      - role: PRR (Recovery and Resilience Plan) - Fullstack Web Developer
+        logo: ../assets/images/prr.png
         time: 2024 - 2025
         company: Axians Portugal
         details: |
-          - Contributed to web platforms for “Recuperar Portugal (PRR)” – EU Recovery and Resilience Plan
-          - Built reusable components and scalable solutions with Laravel, Alpine.js, Livewire
-          - Managed infrastructure with Docker and CI/CD pipelines.
+          - Contributed to web platforms for “Recuperar Portugal (PRR)”
+          - Built reusable components and scalable solutions with Laravel, Alpine.js, Livewire (PHP)
+          - Managed infrastructure with Docker and CI/CD pipelines
           - Integrated APIs (REST, SOAP)
           - Collaborated on code reviews (Bitbucket)
       - role: Fullstack Web Developer (Freelancer)
+        logo: ../assets/images/rwi.png
         time: 2023 - 2024
         company: RW Interactive
         details: |
@@ -87,9 +90,10 @@ experiences:
           - Used Docker containers to set local development environments
           - Built frontend components in Vue.js, always mindful of user experience
           - Integrated and consumed external APIs
-      - role: Military Staff Sergeant
+      - role: Army's Financial Department - Accounting Technician
+        logo: ../assets/images/exercito.jpg
         time: 2015 - 2023
-        company: Departamento de Finanças do Exército (Army's Financial Department)
+        company: Portuguese Army
         details: |
           - Managed payroll data processing involving very high-volume datasets
           - Monitored and controlled debts from undue payments, including registration, follow-up, and recovery through the "Portal das Finanças"
